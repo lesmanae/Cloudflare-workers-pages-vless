@@ -5,17 +5,17 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // https://www.uuidgenerator.net/
-let userID = 'XXXX';
+let userID = 'e98db4db-0c8d-4b41-92b1-1723a7220feb';
 
 const proxyIPs = [
-    "8.222.128.131",
-    "43.157.17.4",
-    "8.219.247.203",
-    "8.222.193.208",
-    "143.47.227.23",
-    "8.219.12.152",
-    "8.219.201.174",
-    "8.222.138.164",
+    "103.133.223.52:2096",
+    "103.6.207.108:8080",
+    "103.168.146.169:20132",
+    "172.232.239.151:587",
+    "8.215.25.225:40422",
+    "103.186.1.209:8443",
+    "43.133.145.156:53136",
+    "35.219.15.90:443",
 ];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
